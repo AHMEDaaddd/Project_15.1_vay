@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "ecommerce_project"
+version = "0.1.0"
+description = "Проект для домашнего задания 15.1"
+authors = ["Ahma"]
+readme = "README.md"
+
+packages = [{ include = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.0"
+pytest-cov = "^6.0"
+black = "^25.1.0"
+flake8 = "^7.2.0"
+isort = "^6.0.1"
+mypy = "^1.16.1"
+pydocstyle = "^6.3.0"
+
+[tool.pytest.ini_options]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
