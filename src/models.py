@@ -62,4 +62,4 @@ class CategoryIterator:
             product = self._products[self._index]
             self._index += 1
             return product
-        raise StopIteration
+        raise StopIteration # Внесено минимальное изменение для фиксации версии
