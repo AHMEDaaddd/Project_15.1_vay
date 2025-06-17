@@ -15,4 +15,3 @@
 ```bash
 poetry install           # Установка зависимостей
 poetry run pytest        # Запуск тестов
-poetry run python 15.1_main.py  # Демонстрация работы
